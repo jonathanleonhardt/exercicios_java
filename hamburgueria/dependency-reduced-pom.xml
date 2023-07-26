@@ -20,7 +20,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>br.com.syonet.hamburgueria.App</mainClass>
+                  <mainClass>br.com.syonet.hamburgueria.databaseService.TesteJPAService</mainClass>
                 </transformer>
               </transformers>
             </configuration>

@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -27,7 +28,7 @@ public class Pedido {
 	private LocalDateTime dataInc = LocalDateTime.now();
 
 	@Column( name = "ds_pedido", columnDefinition = "text default 'sem itens no pedido'")
-	private String desciption;
+	private String description;
 
 	public Integer getId() {
 		return id;
@@ -53,12 +54,18 @@ public class Pedido {
 		this.dataInc = dataInc;
 	}
 
-	public String getDesciption() {
-		return desciption;
+	public String getDescription() {
+		return description;
 	}
 
-	public void setDesciption( String desciption ) {
-		this.desciption = desciption;
+	public void setDescription( String desciption ) {
+		this.description = desciption;
+	}
+
+	@Override
+	public String toString() {
+		return "Pedido [id=" + id + ", hamburgueria=" + hamburgueria
+				+ ", dataInc=" + dataInc + ", description=" + description + "]";
 	}
 
 	
