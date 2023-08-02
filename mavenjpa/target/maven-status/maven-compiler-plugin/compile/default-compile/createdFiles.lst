@@ -1,0 +1,5 @@
+br/com/syonet/mavenjpa/utils/JPAService.class
+br/com/syonet/mavenjpa/exercicio1/domain/Item.class
+br/com/syonet/mavenjpa/App.class
+br/com/syonet/mavenjpa/exercicio1/domain/Cliente.class
+br/com/syonet/mavenjpa/exercicio1/service/ItemService.class
