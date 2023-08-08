@@ -3,8 +3,11 @@ package br.com.syonet.mavenjpa.exercicio2.values;
 import java.util.List;
 
 public class CondominioDTO {
+	//  new CondominioDTO ( id, nome, imoveis )
+	//  	ou
+	// new CondominioDTO(); -> condominio.setId( id )
 
-	private Integer id;
+	private Integer id; // "id" : 1
 	private String nome;
 	private List< ImovelDTO > imoveis;
 

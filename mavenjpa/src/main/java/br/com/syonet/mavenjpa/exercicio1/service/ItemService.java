@@ -21,6 +21,7 @@ public class ItemService {
 
 		if ( newItens.isEmpty() ) {
 			deleteAllItens( itens );
+			return;
 		}
 
 		deleteOldItens( newItens, itens );

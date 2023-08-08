@@ -19,7 +19,7 @@ public class CondominioBusiness {
 	private static ImovelRepository imovelRepo = new ImovelRepository();
 
 
-	// - um método para retornar um json dos condominios e seus imoveis;
+	// - um método para retornar um string json dos condominios e seus imoveis;
 	public String listImovelPorCondominio() {
 		List< CondominioDTO > condominiosDTO = getCondominiosImoveisDTO();
 		return gson.toJson( condominiosDTO );
@@ -31,21 +31,21 @@ public class CondominioBusiness {
 				.map( entity -> {
 					List< ImovelDTO > imoveisDTO = getImoveisDTOByIdCondominio( entity.getId() );
 					return new CondominioDTO.Builder()
-							.withId( entity.getId() )
-							.withNome( entity.getNome() )
-							.withImoveis( imoveisDTO )
-							.build(); } )
+								.withId( entity.getId() )
+								.withNome( entity.getNome() )
+								.withImoveis( imoveisDTO )
+								.build(); } )
 				.collect( Collectors.toList() );
 	}
 
 	private List< ImovelDTO > getImoveisDTOByIdCondominio( Integer idCondominio ) {
-		return  imovelRepo.listAllByCondominio( idCondominio )
+		return imovelRepo.listAllByCondominio( idCondominio )
 				.stream()
 				.map( imovel-> new ImovelDTO.Builder()
-						.withId( imovel.getId() )
-						.withDescricao( imovel.getDescricao() )
-						.withValor( imovel.getValor() )
-						.build() )
+									.withId( imovel.getId() )
+									.withDescricao( imovel.getDescricao() )
+									.withValor( imovel.getValor() )
+									.build() )
 				.collect( Collectors.toList() );
 	}
 
