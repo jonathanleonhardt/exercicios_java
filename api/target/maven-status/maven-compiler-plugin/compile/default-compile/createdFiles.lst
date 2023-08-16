@@ -1,2 +1,12 @@
-br/com/exemplo/api/ApiEntrada.class
+br/com/exemplo/api/exercicio/api/EndpointFunction.class
+br/com/exemplo/api/App.class
 br/com/exemplo/api/ConsumirApi.class
+br/com/exemplo/api/exercicio/api/Router.class
+br/com/exemplo/api/exercicio/enums/QueryParam.class
+br/com/exemplo/api/exercicio/dao/CidadeDAO.class
+br/com/exemplo/api/exercicio/domain/Cidade.class
+br/com/exemplo/api/ApiEntrada.class
+br/com/exemplo/api/exercicio/api/API.class
+br/com/exemplo/api/exercicio/business/CidadeBusiness.class
+br/com/exemplo/api/exercicio/utils/JPAService.class
+br/com/exemplo/api/exercicio/enums/HTTPMethod.class

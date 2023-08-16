@@ -1,2 +1,12 @@
-/opt/syonet/projeto/aulas/aula_exercicios/api/src/main/java/br/com/exemplo/api/ConsumirApi.java
-/opt/syonet/projeto/aulas/aula_exercicios/api/src/main/java/br/com/exemplo/api/ApiEntrada.java
+/opt/syonet/projeto/exercicios_java/api/src/main/java/br/com/exemplo/api/exercicio/dao/CidadeDAO.java
+/opt/syonet/projeto/exercicios_java/api/src/main/java/br/com/exemplo/api/exercicio/enums/HTTPMethod.java
+/opt/syonet/projeto/exercicios_java/api/src/main/java/br/com/exemplo/api/exercicio/business/CidadeBusiness.java
+/opt/syonet/projeto/exercicios_java/api/src/main/java/br/com/exemplo/api/exercicio/api/EndpointFunction.java
+/opt/syonet/projeto/exercicios_java/api/src/main/java/br/com/exemplo/api/ApiEntrada.java
+/opt/syonet/projeto/exercicios_java/api/src/main/java/br/com/exemplo/api/exercicio/utils/JPAService.java
+/opt/syonet/projeto/exercicios_java/api/src/main/java/br/com/exemplo/api/App.java
+/opt/syonet/projeto/exercicios_java/api/src/main/java/br/com/exemplo/api/exercicio/api/API.java
+/opt/syonet/projeto/exercicios_java/api/src/main/java/br/com/exemplo/api/exercicio/enums/QueryParam.java
+/opt/syonet/projeto/exercicios_java/api/src/main/java/br/com/exemplo/api/exercicio/domain/Cidade.java
+/opt/syonet/projeto/exercicios_java/api/src/main/java/br/com/exemplo/api/exercicio/api/Router.java
+/opt/syonet/projeto/exercicios_java/api/src/main/java/br/com/exemplo/api/ConsumirApi.java

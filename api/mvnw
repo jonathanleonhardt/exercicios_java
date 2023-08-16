@@ -34,7 +34,7 @@
 #   MAVEN_SKIP_RC - flag to disable loading of mavenrc files
 # ----------------------------------------------------------------------------
 
-JAVA_HOME="/opt/syonet/jdk/jdk-11.0.18+10/"
+JAVA_HOME="/opt/jdk/jdk-11.0.16.1/"
 echo $JAVA_HOME
 
 if [ -z "$MAVEN_SKIP_RC" ] ; then
