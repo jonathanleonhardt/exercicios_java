@@ -3,6 +3,7 @@ package br.com.syonet;
 import br.com.syonet.domain.Pedido;
 import br.com.syonet.domain.StatusEnum;
 import br.com.syonet.service.PedidoService;
+import jakarta.annotation.security.PermitAll;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.GET;
@@ -15,6 +16,7 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 
 @Path( "/pedido" )
+@PermitAll
 @Produces( MediaType.APPLICATION_JSON )
 @Consumes( MediaType.APPLICATION_JSON )
 public class PedidoResource {
